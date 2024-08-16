@@ -1,5 +1,5 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -7,79 +7,76 @@ const Footer = () => {
       <div className="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
         <div className="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
           <Link to="/" className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
-              <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
-            </svg>
-            <span className="ml-3 text-xl">Tailblocks</span>
+            <span className="ml-3 text-xl">YourCompany</span>
           </Link>
-          <p className="mt-2 text-sm text-gray-500">Air plant banjo lyft occupy retro adaptogen indego</p>
+          <p className="mt-2 text-sm text-gray-500">Your company's mission statement or tagline here.</p>
         </div>
         <div className="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
           <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-            <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">CATEGORIES</h2>
+            <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">COMPANY</h2>
             <nav className="list-none mb-10">
               <li>
-                <Link to="/" className="text-gray-600 hover:text-gray-800">First Link</Link>
+                <Link to="/about" className="text-gray-600 hover:text-gray-800">About Us</Link>
               </li>
               <li>
-                <Link to="/" className="text-gray-600 hover:text-gray-800">Second Link</Link>
+                <Link to="/careers" className="text-gray-600 hover:text-gray-800">Careers</Link>
               </li>
               <li>
-                <Link to="/" className="text-gray-600 hover:text-gray-800">Third Link</Link>
+                <Link to="/blog" className="text-gray-600 hover:text-gray-800">Blog</Link>
               </li>
               <li>
-                <Link to="/" className="text-gray-600 hover:text-gray-800">Fourth Link</Link>
+                <Link to="/contact" className="text-gray-600 hover:text-gray-800">Contact Us</Link>
               </li>
             </nav>
           </div>
           <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-            <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">CATEGORIES</h2>
+            <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">CUSTOMER SERVICE</h2>
             <nav className="list-none mb-10">
               <li>
-                <Link to="/" className="text-gray-600 hover:text-gray-800">First Link</Link>
+                <Link to="/faq" className="text-gray-600 hover:text-gray-800">FAQ</Link>
               </li>
               <li>
-                <Link to="/" className="text-gray-600 hover:text-gray-800">Second Link</Link>
+                <Link to="/shipping" className="text-gray-600 hover:text-gray-800">Shipping & Returns</Link>
               </li>
               <li>
-                <Link to="/" className="text-gray-600 hover:text-gray-800">Third Link</Link>
+                <Link to="/order-tracking" className="text-gray-600 hover:text-gray-800">Order Tracking</Link>
               </li>
               <li>
-                <Link to="/" className="text-gray-600 hover:text-gray-800">Fourth Link</Link>
+                <Link to="/support" className="text-gray-600 hover:text-gray-800">Support</Link>
               </li>
             </nav>
           </div>
           <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-            <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">CATEGORIES</h2>
+            <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">POLICIES</h2>
             <nav className="list-none mb-10">
               <li>
-                <Link to="/" className="text-gray-600 hover:text-gray-800">First Link</Link>
+                <Link to="/privacy-policy" className="text-gray-600 hover:text-gray-800">Privacy Policy</Link>
               </li>
               <li>
-                <Link to="/" className="text-gray-600 hover:text-gray-800">Second Link</Link>
+                <Link to="/terms" className="text-gray-600 hover:text-gray-800">Terms of Service</Link>
               </li>
               <li>
-                <Link to="/" className="text-gray-600 hover:text-gray-800">Third Link</Link>
+                <Link to="/refund-policy" className="text-gray-600 hover:text-gray-800">Refund Policy</Link>
               </li>
               <li>
-                <Link to="/" className="text-gray-600 hover:text-gray-800">Fourth Link</Link>
+                <Link to="/cookie-policy" className="text-gray-600 hover:text-gray-800">Cookie Policy</Link>
               </li>
             </nav>
           </div>
           <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-            <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">CATEGORIES</h2>
+            <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">FOLLOW US</h2>
             <nav className="list-none mb-10">
               <li>
-                <Link to="/" className="text-gray-600 hover:text-gray-800">First Link</Link>
+                <a href="https://facebook.com" className="text-gray-600 hover:text-gray-800">Facebook</a>
               </li>
               <li>
-                <Link to="/" className="text-gray-600 hover:text-gray-800">Second Link</Link>
+                <a href="https://twitter.com" className="text-gray-600 hover:text-gray-800">Twitter</a>
               </li>
               <li>
-                <Link to="/" className="text-gray-600 hover:text-gray-800">Third Link</Link>
+                <a href="https://instagram.com" className="text-gray-600 hover:text-gray-800">Instagram</a>
               </li>
               <li>
-                <Link to="/" className="text-gray-600 hover:text-gray-800">Fourth Link</Link>
+                <a href="https://linkedin.com" className="text-gray-600 hover:text-gray-800">LinkedIn</a>
               </li>
             </nav>
           </div>
@@ -87,8 +84,8 @@ const Footer = () => {
       </div>
       <div className="bg-gray-100">
         <div className="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
-          <p className="text-gray-500 text-sm text-center sm:text-left">© 2020 Tailblocks —
-            <a href="https://twitter.com/knyttneve" rel="noopener noreferrer" className="text-gray-600 ml-1" target="_blank">@knyttneve</a>
+          <p className="text-gray-500 text-sm text-center sm:text-left">© 2024 YourCompany — 
+            <a href="https://twitter.com/yourcompany" className="text-gray-600 ml-1" target="_blank" rel="noopener noreferrer">@yourcompany</a>
           </p>
           <span className="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
             <a href="https://facebook.com" className="text-gray-500" aria-label="Facebook">
@@ -117,7 +114,7 @@ const Footer = () => {
         </div>
       </div>
     </footer>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;
